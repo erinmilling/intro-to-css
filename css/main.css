@@ -1,6 +1,7 @@
 /*This is a CSS comment */
 html {
   background-color: #68cfb8;
+  font-family: 'Lobster', cursive;
 
   /*
   black: #000000
@@ -10,3 +11,22 @@ html {
 
   color: #fff
 }
+  h1 {
+    color: #000000;
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 1;
+    text-shadow: 2px 10px white;
+  }
+  p {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center; /* left, center, right, justify */
+    font-family: 'Lobster', cursive;
+
+
+    }
+
+    ol { list-style-type: none;
+  /* none, decimal, circle, lower-alpha, lower roman, upper-alpha, upper roman, square, disk*/
+  padding: 0; }
